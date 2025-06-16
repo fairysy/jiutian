@@ -1,0 +1,3 @@
+cn.itcast.hilink.test
+style WhiteBackgroundDialogTheme
+style WhiteBackgroundTheme

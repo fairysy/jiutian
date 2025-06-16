@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnSelectFiles"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="选择文件" />
+
+        <TextView
+            android:id="@+id/tvFileList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:text="已选择文件：" />
+
+        <Button
+            android:id="@+id/btnStartShare"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="开始共享"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:id="@+id/tvStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="当前状态：未共享"
+            android:textColor="#FF4081"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/iv_qr_code"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp" />
+
+
+
+
+        <Button
+            android:id="@+id/btnStopShare"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="停止共享"
+            android:layout_marginTop="10dp" />
+    </LinearLayout>
+</ScrollView>

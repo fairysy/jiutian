@@ -1,0 +1,6 @@
+cn.itcast.hilink.test.app-annotation-experimental-1.3.0-0 C:\Users\Fairy\.gradle\caches\8.10.2\transforms\516621f7c20d12d1bd1482156bbb4e7e\transformed\annotation-experimental-1.3.0\res
+cn.itcast.hilink.test.app-core-1.5.0-1 C:\Users\Fairy\.gradle\caches\8.10.2\transforms\ef14c0d5de9597a072dd2953011f4f8e\transformed\core-1.5.0\res
+cn.itcast.hilink.test.app-androidTest-2 E:\output\android\hilink\app\build\generated\res\resValues\androidTest\debug
+cn.itcast.hilink.test.app-mergeDebugAndroidTestResources-3 E:\output\android\hilink\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+cn.itcast.hilink.test.app-mergeDebugAndroidTestResources-4 E:\output\android\hilink\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+cn.itcast.hilink.test.app-debugAndroidTest-5 E:\output\android\hilink\app\build\intermediates\merged_res\debugAndroidTest\mergeDebugAndroidTestResources

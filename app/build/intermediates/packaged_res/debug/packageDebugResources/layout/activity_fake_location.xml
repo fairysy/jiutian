@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:padding="16dp"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/et_latlng"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="输入经纬度，用英文逗号分隔，比如：39.909604,116.397228"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/btn_toggle_mock"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="开始模拟"
+        android:layout_marginTop="16dp"/>
+</LinearLayout>

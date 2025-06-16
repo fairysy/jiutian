@@ -1,0 +1,344 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="cn.itcast.hilink"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="28"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION" />
+11-->E:\output\android\hilink\app\src\main\AndroidManifest.xml:32:5-107
+11-->E:\output\android\hilink\app\src\main\AndroidManifest.xml:32:22-76
+12
+13    <uses-feature
+13-->E:\output\android\hilink\app\src\main\AndroidManifest.xml:5:5-7:36
+14        android:name="android.hardware.telephony"
+14-->E:\output\android\hilink\app\src\main\AndroidManifest.xml:6:9-50
+15        android:required="false" />
+15-->E:\output\android\hilink\app\src\main\AndroidManifest.xml:7:9-33
+16
+17    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+17-->E:\output\android\hilink\app\src\main\AndroidManifest.xml:9:5-79
+17-->E:\output\android\hilink\app\src\main\AndroidManifest.xml:9:22-76
+18    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+18-->E:\output\android\hilink\app\src\main\AndroidManifest.xml:9:5-79
+18-->E:\output\android\hilink\app\src\main\AndroidManifest.xml:9:22-76
+19    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+19-->E:\output\android\hilink\app\src\main\AndroidManifest.xml:10:5-79
+19-->E:\output\android\hilink\app\src\main\AndroidManifest.xml:10:22-76
+20    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+20-->E:\output\android\hilink\app\src\main\AndroidManifest.xml:10:5-79
+20-->E:\output\android\hilink\app\src\main\AndroidManifest.xml:10:22-76
+21    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+21-->E:\output\android\hilink\app\src\main\AndroidManifest.xml:11:5-81
+21-->E:\output\android\hilink\app\src\main\AndroidManifest.xml:11:22-78
+22    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+22-->E:\output\android\hilink\app\src\main\AndroidManifest.xml:11:5-81
+22-->E:\output\android\hilink\app\src\main\AndroidManifest.xml:11:22-78
+23    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+23-->E:\output\android\hilink\app\src\main\AndroidManifest.xml:12:5-76
+23-->E:\output\android\hilink\app\src\main\AndroidManifest.xml:12:22-73
+24    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+24-->E:\output\android\hilink\app\src\main\AndroidManifest.xml:13:5-75
+24-->E:\output\android\hilink\app\src\main\AndroidManifest.xml:13:22-73
+25    <uses-permission android:name="android.permission.INTERNET" />
+25-->E:\output\android\hilink\app\src\main\AndroidManifest.xml:14:5-67
+25-->E:\output\android\hilink\app\src\main\AndroidManifest.xml:14:22-64
+26    <uses-permission android:name="android.permission.CALL_PHONE" />
+26-->E:\output\android\hilink\app\src\main\AndroidManifest.xml:15:5-69
+26-->E:\output\android\hilink\app\src\main\AndroidManifest.xml:15:22-66
+27    <uses-permission android:name="android.permission.BLUETOOTH" />
+27-->E:\output\android\hilink\app\src\main\AndroidManifest.xml:16:5-68
+27-->E:\output\android\hilink\app\src\main\AndroidManifest.xml:16:22-65
+28    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+28-->E:\output\android\hilink\app\src\main\AndroidManifest.xml:17:5-74
+28-->E:\output\android\hilink\app\src\main\AndroidManifest.xml:17:22-71
+29    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+29-->E:\output\android\hilink\app\src\main\AndroidManifest.xml:18:5-80
+29-->E:\output\android\hilink\app\src\main\AndroidManifest.xml:18:22-77
+30    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+30-->E:\output\android\hilink\app\src\main\AndroidManifest.xml:18:5-80
+30-->E:\output\android\hilink\app\src\main\AndroidManifest.xml:18:22-77
+31    <uses-permission android:name="android.permission.READ_PRIVILEGED_PHONE_STATE" />
+31-->E:\output\android\hilink\app\src\main\AndroidManifest.xml:19:5-20:47
+31-->E:\output\android\hilink\app\src\main\AndroidManifest.xml:19:22-83
+32    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+32-->E:\output\android\hilink\app\src\main\AndroidManifest.xml:21:5-81
+32-->E:\output\android\hilink\app\src\main\AndroidManifest.xml:21:22-78
+33    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+33-->E:\output\android\hilink\app\src\main\AndroidManifest.xml:22:5-75
+33-->E:\output\android\hilink\app\src\main\AndroidManifest.xml:22:22-72
+34    <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES" />
+34-->E:\output\android\hilink\app\src\main\AndroidManifest.xml:23:5-24:53
+34-->E:\output\android\hilink\app\src\main\AndroidManifest.xml:23:22-74
+35    <uses-permission android:name="android.permission.WRITE_CALL_LOG" />
+35-->E:\output\android\hilink\app\src\main\AndroidManifest.xml:27:5-73
+35-->E:\output\android\hilink\app\src\main\AndroidManifest.xml:27:22-70
+36    <uses-permission android:name="android.permission.READ_CALL_LOG" />
+36-->E:\output\android\hilink\app\src\main\AndroidManifest.xml:28:5-72
+36-->E:\output\android\hilink\app\src\main\AndroidManifest.xml:28:22-69
+37    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
+37-->E:\output\android\hilink\app\src\main\AndroidManifest.xml:29:5-81
+37-->E:\output\android\hilink\app\src\main\AndroidManifest.xml:29:22-79
+38
+39    <permission
+39-->[androidx.core:core:1.10.1] C:\Users\Fairy\.gradle\caches\8.10.2\transforms\75bff18fcc2dd63839e543318dc9396a\transformed\core-1.10.1\AndroidManifest.xml:22:5-24:47
+40        android:name="cn.itcast.hilink.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+40-->[androidx.core:core:1.10.1] C:\Users\Fairy\.gradle\caches\8.10.2\transforms\75bff18fcc2dd63839e543318dc9396a\transformed\core-1.10.1\AndroidManifest.xml:23:9-81
+41        android:protectionLevel="signature" />
+41-->[androidx.core:core:1.10.1] C:\Users\Fairy\.gradle\caches\8.10.2\transforms\75bff18fcc2dd63839e543318dc9396a\transformed\core-1.10.1\AndroidManifest.xml:24:9-44
+42
+43    <uses-permission android:name="cn.itcast.hilink.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+43-->[androidx.core:core:1.10.1] C:\Users\Fairy\.gradle\caches\8.10.2\transforms\75bff18fcc2dd63839e543318dc9396a\transformed\core-1.10.1\AndroidManifest.xml:26:5-97
+43-->[androidx.core:core:1.10.1] C:\Users\Fairy\.gradle\caches\8.10.2\transforms\75bff18fcc2dd63839e543318dc9396a\transformed\core-1.10.1\AndroidManifest.xml:26:22-94
+44    <uses-permission android:name="android.permission.CAMERA" /> <!-- Don't require camera, as this requires a rear camera. This allows it to work on the Nexus 7 -->
+44-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\Fairy\.gradle\caches\8.10.2\transforms\e2ae4fc32d325d25c932d49566381835\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:22:5-65
+44-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\Fairy\.gradle\caches\8.10.2\transforms\e2ae4fc32d325d25c932d49566381835\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:22:22-62
+45    <uses-feature
+45-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\Fairy\.gradle\caches\8.10.2\transforms\e2ae4fc32d325d25c932d49566381835\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:25:5-27:36
+46        android:name="android.hardware.camera"
+46-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\Fairy\.gradle\caches\8.10.2\transforms\e2ae4fc32d325d25c932d49566381835\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:26:9-47
+47        android:required="false" />
+47-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\Fairy\.gradle\caches\8.10.2\transforms\e2ae4fc32d325d25c932d49566381835\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:27:9-33
+48    <uses-feature
+48-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\Fairy\.gradle\caches\8.10.2\transforms\e2ae4fc32d325d25c932d49566381835\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:28:5-30:36
+49        android:name="android.hardware.camera.front"
+49-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\Fairy\.gradle\caches\8.10.2\transforms\e2ae4fc32d325d25c932d49566381835\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:29:9-53
+50        android:required="false" /> <!-- TODO replace above two with next line after Android 4.2 -->
+50-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\Fairy\.gradle\caches\8.10.2\transforms\e2ae4fc32d325d25c932d49566381835\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:30:9-33
+51    <!-- <uses-feature android:name="android.hardware.camera.any"/> -->
+52    <uses-feature
+52-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\Fairy\.gradle\caches\8.10.2\transforms\e2ae4fc32d325d25c932d49566381835\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:33:5-35:36
+53        android:name="android.hardware.camera.autofocus"
+53-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\Fairy\.gradle\caches\8.10.2\transforms\e2ae4fc32d325d25c932d49566381835\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:34:9-57
+54        android:required="false" />
+54-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\Fairy\.gradle\caches\8.10.2\transforms\e2ae4fc32d325d25c932d49566381835\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:35:9-33
+55    <uses-feature
+55-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\Fairy\.gradle\caches\8.10.2\transforms\e2ae4fc32d325d25c932d49566381835\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:36:5-38:36
+56        android:name="android.hardware.camera.flash"
+56-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\Fairy\.gradle\caches\8.10.2\transforms\e2ae4fc32d325d25c932d49566381835\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:37:9-53
+57        android:required="false" />
+57-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\Fairy\.gradle\caches\8.10.2\transforms\e2ae4fc32d325d25c932d49566381835\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:38:9-33
+58    <uses-feature
+58-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\Fairy\.gradle\caches\8.10.2\transforms\e2ae4fc32d325d25c932d49566381835\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:39:5-41:36
+59        android:name="android.hardware.screen.landscape"
+59-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\Fairy\.gradle\caches\8.10.2\transforms\e2ae4fc32d325d25c932d49566381835\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:40:9-57
+60        android:required="false" />
+60-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\Fairy\.gradle\caches\8.10.2\transforms\e2ae4fc32d325d25c932d49566381835\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:41:9-33
+61    <uses-feature
+61-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\Fairy\.gradle\caches\8.10.2\transforms\e2ae4fc32d325d25c932d49566381835\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:42:5-44:36
+62        android:name="android.hardware.wifi"
+62-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\Fairy\.gradle\caches\8.10.2\transforms\e2ae4fc32d325d25c932d49566381835\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:43:9-45
+63        android:required="false" />
+63-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\Fairy\.gradle\caches\8.10.2\transforms\e2ae4fc32d325d25c932d49566381835\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:44:9-33
+64
+65    <application
+65-->E:\output\android\hilink\app\src\main\AndroidManifest.xml:38:5-95:19
+66        android:allowBackup="true"
+66-->E:\output\android\hilink\app\src\main\AndroidManifest.xml:40:9-35
+67        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+67-->[androidx.core:core:1.10.1] C:\Users\Fairy\.gradle\caches\8.10.2\transforms\75bff18fcc2dd63839e543318dc9396a\transformed\core-1.10.1\AndroidManifest.xml:28:18-86
+68        android:debuggable="true"
+69        android:extractNativeLibs="false"
+70        android:icon="@mipmap/h"
+70-->E:\output\android\hilink\app\src\main\AndroidManifest.xml:41:9-33
+71        android:label="玖天"
+71-->E:\output\android\hilink\app\src\main\AndroidManifest.xml:42:9-27
+72        android:networkSecurityConfig="@xml/network_security_config"
+72-->E:\output\android\hilink\app\src\main\AndroidManifest.xml:43:9-69
+73        android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"
+73-->E:\output\android\hilink\app\src\main\AndroidManifest.xml:44:9-68
+74        android:usesCleartextTraffic="true" >
+74-->E:\output\android\hilink\app\src\main\AndroidManifest.xml:39:9-44
+75
+76        <!-- Main Activity -->
+77        <activity
+77-->E:\output\android\hilink\app\src\main\AndroidManifest.xml:48:9-57:20
+78            android:name="cn.itcast.hilink.WelcomeActivity"
+78-->E:\output\android\hilink\app\src\main\AndroidManifest.xml:49:13-44
+79            android:exported="true"
+79-->E:\output\android\hilink\app\src\main\AndroidManifest.xml:50:13-36
+80            android:label="玖天"
+80-->E:\output\android\hilink\app\src\main\AndroidManifest.xml:51:13-31
+81            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" >
+81-->E:\output\android\hilink\app\src\main\AndroidManifest.xml:52:13-72
+82            <intent-filter>
+82-->E:\output\android\hilink\app\src\main\AndroidManifest.xml:53:13-56:29
+83                <action android:name="android.intent.action.MAIN" />
+83-->E:\output\android\hilink\app\src\main\AndroidManifest.xml:54:17-69
+83-->E:\output\android\hilink\app\src\main\AndroidManifest.xml:54:25-66
+84
+85                <category android:name="android.intent.category.LAUNCHER" />
+85-->E:\output\android\hilink\app\src\main\AndroidManifest.xml:55:17-77
+85-->E:\output\android\hilink\app\src\main\AndroidManifest.xml:55:27-74
+86            </intent-filter>
+87        </activity>
+88
+89        <!-- Main Activity -->
+90        <activity android:name="cn.itcast.hilink.MainActivity" />
+90-->E:\output\android\hilink\app\src\main\AndroidManifest.xml:60:9-50
+90-->E:\output\android\hilink\app\src\main\AndroidManifest.xml:60:19-47
+91
+92        <!-- About Activity -->
+93        <activity android:name="cn.itcast.hilink.AboutActivity" />
+93-->E:\output\android\hilink\app\src\main\AndroidManifest.xml:63:9-51
+93-->E:\output\android\hilink\app\src\main\AndroidManifest.xml:63:19-48
+94
+95        <!-- Device Info Activity -->
+96        <activity android:name="cn.itcast.hilink.DeviceInfoActivity" />
+96-->E:\output\android\hilink\app\src\main\AndroidManifest.xml:66:9-56
+96-->E:\output\android\hilink\app\src\main\AndroidManifest.xml:66:19-53
+97        <!-- 磁场探测(金属探测仪) -->
+98        <activity android:name="cn.itcast.hilink.MagneticFieldActivity" />
+98-->E:\output\android\hilink\app\src\main\AndroidManifest.xml:68:9-59
+98-->E:\output\android\hilink\app\src\main\AndroidManifest.xml:68:19-56
+99        <activity android:name="cn.itcast.hilink.ReverseShellActivity" />
+99-->E:\output\android\hilink\app\src\main\AndroidManifest.xml:70:9-58
+99-->E:\output\android\hilink\app\src\main\AndroidManifest.xml:70:19-55
+100        <activity android:name="cn.itcast.hilink.CodeActivity" />
+100-->E:\output\android\hilink\app\src\main\AndroidManifest.xml:72:9-50
+100-->E:\output\android\hilink\app\src\main\AndroidManifest.xml:72:19-47
+101        <activity android:name="cn.itcast.hilink.EnvCheckActivity" />
+101-->E:\output\android\hilink\app\src\main\AndroidManifest.xml:73:9-54
+101-->E:\output\android\hilink\app\src\main\AndroidManifest.xml:73:19-51
+102        <activity android:name="cn.itcast.hilink.PackageActivity" />
+102-->E:\output\android\hilink\app\src\main\AndroidManifest.xml:75:9-53
+102-->E:\output\android\hilink\app\src\main\AndroidManifest.xml:75:19-50
+103
+104        <!-- 新增：监听页面 -->
+105        <activity android:name="cn.itcast.hilink.ShellActivity" />
+105-->E:\output\android\hilink\app\src\main\AndroidManifest.xml:78:9-51
+105-->E:\output\android\hilink\app\src\main\AndroidManifest.xml:78:19-48
+106        <activity android:name="cn.itcast.hilink.chinaant" />
+106-->E:\output\android\hilink\app\src\main\AndroidManifest.xml:79:9-46
+106-->E:\output\android\hilink\app\src\main\AndroidManifest.xml:79:19-43
+107        <!-- 通话记录伪造 -->
+108        <activity android:name="cn.itcast.hilink.AddCallLogActivity" />
+108-->E:\output\android\hilink\app\src\main\AndroidManifest.xml:81:9-56
+108-->E:\output\android\hilink\app\src\main\AndroidManifest.xml:81:19-53
+109        <activity android:name="cn.itcast.hilink.DirbScanActivity" />
+109-->E:\output\android\hilink\app\src\main\AndroidManifest.xml:83:9-54
+109-->E:\output\android\hilink\app\src\main\AndroidManifest.xml:83:19-51
+110        <activity android:name="cn.itcast.hilink.NmapScanActivity" />
+110-->E:\output\android\hilink\app\src\main\AndroidManifest.xml:84:9-54
+110-->E:\output\android\hilink\app\src\main\AndroidManifest.xml:84:19-51
+111        <!-- 域名转IP -->
+112        <activity android:name="cn.itcast.hilink.DomainIpActivity" />
+112-->E:\output\android\hilink\app\src\main\AndroidManifest.xml:86:9-54
+112-->E:\output\android\hilink\app\src\main\AndroidManifest.xml:86:19-51
+113        <!-- 图片恢复 -->
+114        <activity android:name="cn.itcast.hilink.PreviewActivity" />
+114-->E:\output\android\hilink\app\src\main\AndroidManifest.xml:88:9-52
+114-->E:\output\android\hilink\app\src\main\AndroidManifest.xml:88:19-50
+115        <activity android:name="cn.itcast.hilink.RecoverActivity" />
+115-->E:\output\android\hilink\app\src\main\AndroidManifest.xml:89:9-52
+115-->E:\output\android\hilink\app\src\main\AndroidManifest.xml:89:19-50
+116        <!-- IP锁定 -->
+117        <activity android:name="cn.itcast.hilink.IpGeoActivity" />
+117-->E:\output\android\hilink\app\src\main\AndroidManifest.xml:91:9-51
+117-->E:\output\android\hilink\app\src\main\AndroidManifest.xml:91:19-48
+118        <!-- 虚拟定位 -->
+119        <activity android:name="cn.itcast.hilink.FakeLocationActivity" />
+119-->E:\output\android\hilink\app\src\main\AndroidManifest.xml:93:9-58
+119-->E:\output\android\hilink\app\src\main\AndroidManifest.xml:93:19-55
+120        <activity
+120-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\Fairy\.gradle\caches\8.10.2\transforms\b4704e32829c88327a8219286e956202\transformed\play-services-base-18.1.0\AndroidManifest.xml:20:9-22:45
+121            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+121-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\Fairy\.gradle\caches\8.10.2\transforms\b4704e32829c88327a8219286e956202\transformed\play-services-base-18.1.0\AndroidManifest.xml:20:19-85
+122            android:exported="false"
+122-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\Fairy\.gradle\caches\8.10.2\transforms\b4704e32829c88327a8219286e956202\transformed\play-services-base-18.1.0\AndroidManifest.xml:22:19-43
+123            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+123-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\Fairy\.gradle\caches\8.10.2\transforms\b4704e32829c88327a8219286e956202\transformed\play-services-base-18.1.0\AndroidManifest.xml:21:19-78
+124
+125        <meta-data
+125-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Fairy\.gradle\caches\8.10.2\transforms\ccbf21efa70f8a3b8bc8c26492f4e21e\transformed\play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+126            android:name="com.google.android.gms.version"
+126-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Fairy\.gradle\caches\8.10.2\transforms\ccbf21efa70f8a3b8bc8c26492f4e21e\transformed\play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+127            android:value="@integer/google_play_services_version" />
+127-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Fairy\.gradle\caches\8.10.2\transforms\ccbf21efa70f8a3b8bc8c26492f4e21e\transformed\play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+128
+129        <provider
+129-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Fairy\.gradle\caches\8.10.2\transforms\6f9476fed324954d7b98cd93265cb913\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+130            android:name="androidx.startup.InitializationProvider"
+130-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Fairy\.gradle\caches\8.10.2\transforms\6f9476fed324954d7b98cd93265cb913\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+131            android:authorities="cn.itcast.hilink.androidx-startup"
+131-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Fairy\.gradle\caches\8.10.2\transforms\6f9476fed324954d7b98cd93265cb913\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+132            android:exported="false" >
+132-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Fairy\.gradle\caches\8.10.2\transforms\6f9476fed324954d7b98cd93265cb913\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+133            <meta-data
+133-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Fairy\.gradle\caches\8.10.2\transforms\6f9476fed324954d7b98cd93265cb913\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+134                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+134-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Fairy\.gradle\caches\8.10.2\transforms\6f9476fed324954d7b98cd93265cb913\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+135                android:value="androidx.startup" />
+135-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Fairy\.gradle\caches\8.10.2\transforms\6f9476fed324954d7b98cd93265cb913\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+136            <meta-data
+136-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\Fairy\.gradle\caches\8.10.2\transforms\a72eb8a9e567a647a463b097f2a59ea1\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:29:13-31:52
+137                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+137-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\Fairy\.gradle\caches\8.10.2\transforms\a72eb8a9e567a647a463b097f2a59ea1\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:30:17-78
+138                android:value="androidx.startup" />
+138-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\Fairy\.gradle\caches\8.10.2\transforms\a72eb8a9e567a647a463b097f2a59ea1\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:31:17-49
+139            <meta-data
+139-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Fairy\.gradle\caches\8.10.2\transforms\1e37b5a87900eaf7f9a87f9cd087213c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+140                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+140-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Fairy\.gradle\caches\8.10.2\transforms\1e37b5a87900eaf7f9a87f9cd087213c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+141                android:value="androidx.startup" />
+141-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Fairy\.gradle\caches\8.10.2\transforms\1e37b5a87900eaf7f9a87f9cd087213c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+142        </provider>
+143
+144        <activity
+144-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\Fairy\.gradle\caches\8.10.2\transforms\e2ae4fc32d325d25c932d49566381835\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:47:9-53:63
+145            android:name="com.journeyapps.barcodescanner.CaptureActivity"
+145-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\Fairy\.gradle\caches\8.10.2\transforms\e2ae4fc32d325d25c932d49566381835\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:48:13-74
+146            android:clearTaskOnLaunch="true"
+146-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\Fairy\.gradle\caches\8.10.2\transforms\e2ae4fc32d325d25c932d49566381835\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:49:13-45
+147            android:screenOrientation="sensorLandscape"
+147-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\Fairy\.gradle\caches\8.10.2\transforms\e2ae4fc32d325d25c932d49566381835\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:50:13-56
+148            android:stateNotNeeded="true"
+148-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\Fairy\.gradle\caches\8.10.2\transforms\e2ae4fc32d325d25c932d49566381835\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:51:13-42
+149            android:theme="@style/zxing_CaptureTheme"
+149-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\Fairy\.gradle\caches\8.10.2\transforms\e2ae4fc32d325d25c932d49566381835\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:52:13-54
+150            android:windowSoftInputMode="stateAlwaysHidden" />
+150-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\Fairy\.gradle\caches\8.10.2\transforms\e2ae4fc32d325d25c932d49566381835\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:53:13-60
+151
+152        <receiver
+152-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Fairy\.gradle\caches\8.10.2\transforms\1e37b5a87900eaf7f9a87f9cd087213c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+153            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+153-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Fairy\.gradle\caches\8.10.2\transforms\1e37b5a87900eaf7f9a87f9cd087213c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+154            android:directBootAware="false"
+154-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Fairy\.gradle\caches\8.10.2\transforms\1e37b5a87900eaf7f9a87f9cd087213c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+155            android:enabled="true"
+155-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Fairy\.gradle\caches\8.10.2\transforms\1e37b5a87900eaf7f9a87f9cd087213c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+156            android:exported="true"
+156-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Fairy\.gradle\caches\8.10.2\transforms\1e37b5a87900eaf7f9a87f9cd087213c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+157            android:permission="android.permission.DUMP" >
+157-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Fairy\.gradle\caches\8.10.2\transforms\1e37b5a87900eaf7f9a87f9cd087213c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+158            <intent-filter>
+158-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Fairy\.gradle\caches\8.10.2\transforms\1e37b5a87900eaf7f9a87f9cd087213c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+159                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+159-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Fairy\.gradle\caches\8.10.2\transforms\1e37b5a87900eaf7f9a87f9cd087213c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+159-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Fairy\.gradle\caches\8.10.2\transforms\1e37b5a87900eaf7f9a87f9cd087213c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+160            </intent-filter>
+161            <intent-filter>
+161-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Fairy\.gradle\caches\8.10.2\transforms\1e37b5a87900eaf7f9a87f9cd087213c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+162                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+162-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Fairy\.gradle\caches\8.10.2\transforms\1e37b5a87900eaf7f9a87f9cd087213c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+162-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Fairy\.gradle\caches\8.10.2\transforms\1e37b5a87900eaf7f9a87f9cd087213c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+163            </intent-filter>
+164            <intent-filter>
+164-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Fairy\.gradle\caches\8.10.2\transforms\1e37b5a87900eaf7f9a87f9cd087213c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+165                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+165-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Fairy\.gradle\caches\8.10.2\transforms\1e37b5a87900eaf7f9a87f9cd087213c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+165-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Fairy\.gradle\caches\8.10.2\transforms\1e37b5a87900eaf7f9a87f9cd087213c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+166            </intent-filter>
+167            <intent-filter>
+167-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Fairy\.gradle\caches\8.10.2\transforms\1e37b5a87900eaf7f9a87f9cd087213c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+168                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+168-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Fairy\.gradle\caches\8.10.2\transforms\1e37b5a87900eaf7f9a87f9cd087213c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+168-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Fairy\.gradle\caches\8.10.2\transforms\1e37b5a87900eaf7f9a87f9cd087213c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+169            </intent-filter>
+170        </receiver>
+171    </application>
+172
+173</manifest>

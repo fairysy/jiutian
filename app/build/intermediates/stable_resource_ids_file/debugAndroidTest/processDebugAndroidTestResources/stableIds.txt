@@ -1,0 +1,2 @@
+cn.itcast.hilink.test:style/WhiteBackgroundTheme = 0x7f010001
+cn.itcast.hilink.test:style/WhiteBackgroundDialogTheme = 0x7f010000

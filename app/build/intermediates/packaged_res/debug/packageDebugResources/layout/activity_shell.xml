@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp">
+
+    <!-- 固定区域：上方按钮与输入框 -->
+    <LinearLayout
+        android:id="@+id/fixed_top_panel"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tv_ip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="本机IP: "
+            android:textSize="16sp"
+            android:paddingBottom="8dp" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/et_port"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:hint="输入端口号"
+                android:inputType="number" />
+
+            <Button
+                android:id="@+id/btn_run"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Run" />
+
+            <Button
+                android:id="@+id/btn_stop"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Stop"
+                android:layout_marginStart="8dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp">
+
+            <EditText
+                android:id="@+id/et_command"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:hint="输入要执行的命令" />
+
+            <Button
+                android:id="@+id/btn_exec"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="执行" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- 滑动日志区域 -->
+    <ScrollView
+        android:id="@+id/log_scroll"
+        android:layout_below="@id/fixed_top_panel"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="8dp">
+
+        <TextView
+            android:id="@+id/tv_log"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="日志输出..."
+            android:textSize="14sp"
+            android:padding="8dp" />
+    </ScrollView>
+
+</RelativeLayout>
