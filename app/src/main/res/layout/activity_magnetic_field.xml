@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp">
+
+    <!-- 引入一个 Guideline，确保磁场强度显示的位置始终不变 -->
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintGuide_percent="0.4" /> <!-- 约束在布局顶部40%的位置 -->
+
+    <!-- 磁场强度显示 -->
+    <TextView
+        android:id="@+id/magneticFieldTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="磁场强度：-- μT"
+        android:textSize="30sp"
+        android:textColor="#FF4081"
+        android:textStyle="bold"
+        android:gravity="center"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/highMagneticFieldWarning"/>
+
+    <!-- 磁场强度过高提示 -->
+    <TextView
+        android:id="@+id/highMagneticFieldWarning"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="当前磁场强度过高"
+        android:textSize="18sp"
+        android:textColor="#FF0000"
+        android:layout_marginBottom="100dp"
+        android:gravity="center_horizontal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+
+        android:visibility="gone" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

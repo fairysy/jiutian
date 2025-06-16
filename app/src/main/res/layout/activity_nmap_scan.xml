@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rootLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- 固定输入和按钮区域 -->
+    <EditText
+        android:id="@+id/etTargetIp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入目标IP"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/btnStartScan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="开始扫描" />
+
+    <Button
+        android:id="@+id/btnCancelScan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="取消扫描"
+        android:enabled="false" />
+
+    <!-- 扫描结果区域可滚动 -->
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="10dp"
+        android:fillViewport="true">
+
+        <TextView
+            android:id="@+id/tvScanResult"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:paddingTop="10dp" />
+    </ScrollView>
+
+</LinearLayout>

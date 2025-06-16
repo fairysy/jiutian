@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_margin="8dp"
+    android:background="#FFFFFF"
+    android:elevation="4dp"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/deviceName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="设备名称"
+        android:textSize="16sp"
+        android:textColor="#333"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/deviceIP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="设备IP"
+        android:textSize="14sp"
+        android:textColor="#888"
+        android:layout_marginTop="5dp"/>
+
+    <TextView
+        android:id="@+id/deviceType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="设备类型"
+        android:textSize="12sp"
+        android:textColor="#555"
+        android:layout_marginTop="5dp"/>
+
+    <TextView
+        android:id="@+id/macAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MAC 地址"
+        android:textSize="12sp"
+        android:textColor="#555"
+        android:layout_marginTop="5dp"/>
+
+    <TextView
+        android:id="@+id/onlineStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="在线状态"
+        android:textSize="12sp"
+        android:textColor="#555"
+        android:layout_marginTop="5dp"/>
+
+    <TextView
+        android:id="@+id/responseTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="响应时间"
+        android:textSize="12sp"
+        android:textColor="#555"
+        android:layout_marginTop="5dp"/>
+
+    <TextView
+        android:id="@+id/openPorts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="开放端口"
+        android:textSize="12sp"
+        android:textColor="#555"
+        android:layout_marginTop="5dp"/>
+
+    <!-- 添加连接按钮 -->
+    <Button
+        android:id="@+id/connectButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="全端口扫描"
+        android:layout_marginTop="10dp"
+        android:enabled="true"/>
+
+    <!-- 进度条和进度文本 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="5dp">
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:max="100"
+            android:progress="0"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/progressText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="扫描进度：0%"
+            android:textSize="12sp"
+            android:gravity="center"
+            android:visibility="gone"/>
+    </LinearLayout>
+</LinearLayout>

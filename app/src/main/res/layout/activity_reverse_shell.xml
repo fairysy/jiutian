@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/connection_info"
+            android:text="连接前请使用主页NC监听工具进行监听\n或使用电脑 nc -lvvp 端口号 进行监听\n电脑未安装NC请使用右边代码"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="0dp"
+            android:textSize="10sp"
+            android:textColor="#FF0000"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true" />
+
+        <!-- 代码按钮，位于TextView的右边 -->
+        <Button
+            android:id="@+id/code_button"
+            android:text="电脑代码"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true" />
+
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/ip_input"
+        android:hint="请输入目标IP"
+        android:inputType="text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/port_input"
+        android:hint="请输入目标端口"
+        android:inputType="number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/start_button"
+        android:text="连接"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:overScrollMode="always">
+
+
+
+
+        <TextView
+            android:id="@+id/log_view"
+            android:text="日志输出将在这里显示"
+            android:padding="10dp"
+            android:textSize="14sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textIsSelectable="true" />
+    </ScrollView>
+
+</LinearLayout>

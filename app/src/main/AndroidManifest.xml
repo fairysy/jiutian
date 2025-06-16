@@ -1,0 +1,97 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="cn.itcast.hilink">
+
+    <uses-feature
+        android:name="android.hardware.telephony"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PRIVILEGED_PHONE_STATE"
+        tools:ignore="ProtectedPermissions" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES"
+        tools:ignore="QueryAllPackagesPermission" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_CALL_LOG" />
+    <uses-permission android:name="android.permission.READ_CALL_LOG" />
+    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION" tools:ignore="MockLocation" />
+
+
+
+
+
+    <application
+        android:usesCleartextTraffic="true"
+        android:allowBackup="true"
+        android:icon="@mipmap/h"
+        android:label="玖天"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
+
+
+        <!-- Main Activity -->
+        <activity
+            android:name=".WelcomeActivity"
+            android:exported="true"
+            android:label="玖天"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Main Activity -->
+        <activity android:name=".MainActivity" />
+
+        <!-- About Activity -->
+        <activity android:name=".AboutActivity" />
+
+        <!-- Device Info Activity -->
+        <activity android:name=".DeviceInfoActivity" />
+        <!--磁场探测(金属探测仪)-->
+        <activity android:name=".MagneticFieldActivity" />
+
+        <activity android:name=".ReverseShellActivity" />
+
+        <activity android:name=".CodeActivity" />
+        <activity android:name=".EnvCheckActivity" />
+
+        <activity android:name=".PackageActivity" />
+
+        <!-- 新增：监听页面 -->
+        <activity android:name=".ShellActivity" />
+        <activity android:name=".chinaant" />
+        <!--通话记录伪造-->
+        <activity android:name=".AddCallLogActivity" />
+
+        <activity android:name=".DirbScanActivity" />
+        <activity android:name=".NmapScanActivity" />
+        <!--域名转IP-->
+        <activity android:name=".DomainIpActivity" />
+        <!--图片恢复-->
+        <activity android:name=".PreviewActivity"/>
+        <activity android:name=".RecoverActivity"/>
+        <!--IP锁定-->
+        <activity android:name=".IpGeoActivity" />
+        <!--虚拟定位-->
+        <activity android:name=".FakeLocationActivity" />
+
+    </application>
+
+</manifest>

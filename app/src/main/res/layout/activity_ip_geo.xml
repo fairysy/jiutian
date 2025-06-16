@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/et_ip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入IP地址"
+        android:inputType="text"
+        android:padding="10dp"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/btn_tencent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="腾讯地图查询"
+        android:layout_marginTop="12dp"
+        android:padding="10dp" />
+
+    <Button
+        android:id="@+id/btn_ip138"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="IP138查询"
+        android:layout_marginTop="12dp"
+        android:padding="10dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="16dp">
+
+        <TextView
+            android:id="@+id/tv_result"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="查询结果显示在这里"
+            android:textSize="16sp"
+            android:textColor="#333333" />
+    </ScrollView>
+
+</LinearLayout>

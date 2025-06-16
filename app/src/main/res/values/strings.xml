@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">hilink</string>
+    <string-array name="call_types">
+        <item>呼入</item>
+        <item>呼出</item>
+        <item>未接</item>
+    </string-array>
+
+    <string-array name="call_dates">
+        <item>刚刚</item>
+        <item>1小时前</item>
+        <item>今天早些时候</item>
+        <item>昨天</item>
+        <item>一周前</item>
+    </string-array>
+
+    <string-array name="sms_types">
+        <item>收件箱</item>
+        <item>发件箱</item>
+    </string-array>
+
+    <string-array name="sms_dates">
+        <item>刚刚</item>
+        <item>1小时前</item>
+        <item>今天早些时候</item>
+        <item>昨天</item>
+        <item>一周前</item>
+    </string-array>
+</resources>

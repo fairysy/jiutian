@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/yy"
+    tools:context=".WelcomeActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/headerLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:background="#7E919EFF"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="13dp"
+            tools:ignore="MissingConstraints">
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="玖天工具箱"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+
+            <Button
+                android:id="@+id/aboutButton"
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:text="关于"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:background="@android:color/transparent" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            android:orientation="horizontal">
+
+            <!-- CheckBox -->
+            <Button
+                android:id="@+id/btnArpAssign"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:text="本机详情"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:backgroundTint="#5484FD" />
+
+
+            <!-- TextView 文字，点击后触发按钮事件 -->
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginTop="5dp"
+                android:gravity="end|center_vertical"
+                android:text="内网设备及端口=>"
+                android:textColor="#FA54AA"
+                android:textStyle="bold"
+                android:textSize="19dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:paddingEnd="0dp" />
+
+            <!-- ImageButton -->
+            <ImageButton
+                android:id="@+id/btnStart"
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/rounded_border"
+                android:backgroundTint="#00FFFFFF"
+                android:contentDescription="Add button"
+                android:padding="10dp"
+                android:src="@android:drawable/ic_input_add"
+                android:textColor="#FFFFFF"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:tint="@android:color/holo_purple" />
+
+        </LinearLayout>
+
+
+
+
+
+        <GridLayout
+            android:id="@+id/buttonGrid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="2"
+            android:padding="5dp"
+            android:layout_marginTop="20dp">
+
+
+            <Button
+                android:id="@+id/btn_go_check"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:text="虚拟环境检测"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:background="@android:drawable/editbox_background_normal"
+                android:backgroundTint="#DAFF7ABD" />
+            <Button
+                android:id="@+id/btnGoPackage"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:text="网页爬虫"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:background="@android:drawable/editbox_background_normal"
+                android:backgroundTint="#DAFF7ABD" />
+            <Button
+                android:id="@+id/btnDomainToIp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:text="域名转IP"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:background="@android:drawable/editbox_background_normal"
+                android:backgroundTint="#DAFF7ABD" />
+            <Button
+                android:id="@+id/btnNmap"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:text="IP端口扫描"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:background="@android:drawable/editbox_background_normal"
+                android:backgroundTint="#DAFF7ABD" />
+
+            <Button
+                android:id="@+id/btnEnterDirb"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:text="网页后台扫描"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:background="@android:drawable/editbox_background_normal"
+                android:backgroundTint="#DAFF7ABD" />
+
+            <Button
+                android:id="@+id/btnyj"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:text="中国蚁剑"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:background="@android:drawable/editbox_background_normal"
+                android:backgroundTint="#DAFF7ABD" />
+
+
+
+
+
+            <Button
+                android:id="@+id/btnnc"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:text="nc监听"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:background="@android:drawable/editbox_background_normal"
+                android:backgroundTint="#DAFF7ABD" />
+
+            <Button
+                android:id="@+id/btnReverseShell"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:text="Shell反弹nc"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:background="@android:drawable/editbox_background_normal"
+                android:backgroundTint="#DAFF7ABD" />
+
+            <Button
+                android:id="@+id/btncalladd"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:text="伪造通话记录"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:background="@android:drawable/editbox_background_normal"
+                android:backgroundTint="#DAFF7ABD" />
+
+            <Button
+                android:id="@+id/btnpicture_back"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:text="恢复已删除图片"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:background="@android:drawable/editbox_background_normal"
+                android:backgroundTint="#DAFF7ABD" />
+            <Button
+                android:id="@+id/btnipgeo"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:text="查询IP地址位置"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:background="@android:drawable/editbox_background_normal"
+                android:backgroundTint="#DAFF7ABD" />
+            <Button
+                android:id="@+id/btnFakeLocation"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:text="虚拟定位"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:background="@android:drawable/editbox_background_normal"
+                android:backgroundTint="#DAFF7ABD" />
+
+
+
+            <Button
+                android:id="@+id/btnArp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:text="磁场探测"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:background="@android:drawable/editbox_background_normal"
+                android:backgroundTint="#DAFF7ABD" />
+
+
+
+            <!--<Button
+                android:id="@+id/btnsmsadd"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:text="伪造短信(未完成)"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:background="@android:drawable/editbox_background_normal"
+                android:backgroundTint="#7ABDFF" />-->
+
+
+            <Button
+                android:id="@+id/btnLanTransfer"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:text="局域网传输(未完成)"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:background="@android:drawable/editbox_background_normal"
+                android:backgroundTint="#731A57FF" />
+
+        </GridLayout>
+
+
+
+        <!--<LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ProgressBar
+                android:id="@+id/progressBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone" />
+
+            &lt;!&ndash; 设备列表 &ndash;&gt;
+            <ListView
+                android:id="@+id/deviceListView"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+        </LinearLayout>-->
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
