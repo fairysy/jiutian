@@ -17,13 +17,12 @@
 
 ![image](https://github.com/user-attachments/assets/8883c9d7-5fc0-4118-af5b-84bab0a776f8)
 
-> 建议图片路径为：`images/screenshot.png`，也可放根目录。
+
 
 ## 📦 安装方式
-
+文件中的apk，直接下载安装即可
 项目正在开发中，后续将支持：
 
-- ✅ Android APK 安装包
 - ✅ GitHub Release 发布
 - ✅ Termux 环境支持（可选）
 
@@ -33,5 +32,5 @@
 
 ---
 
-> 💡 本项目由 玖天 安全研究团队开发维护，欢迎 Star 与建议 🙏
+> 💡 本项目由 羲和 安全研究团队开发维护，欢迎 Star 与建议 🙏
 
